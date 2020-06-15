@@ -51,9 +51,21 @@
     </header>
     <!-- code institute mini project tutorial with some adjustments by me -->
     <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Contact Us</h3>
+        <div class="row row-table">
+            <div class="col-md-4 bg-color-map-info section-column">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-heading uppercase">Our Locations</h3>
+                    </div>
+                </div>
+                <div id="map"></div>
+            </div>            
+            <div class="col-md-8 bg-color-contact section-column">
+                <div class="col">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">Contact Us</h3>
+                    </div>
+                </div>
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
@@ -73,10 +85,8 @@
                         </div>
                     </form>
                 </div>
-
             </div>
-        </div>
-    </section>
+    </section>    
     <!-- code institute mini project tutorial with some adjustments by me -->
      <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -148,5 +158,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGj4wua5vvv_N-Aqij0j54ZejVpyTf9wg&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 </html>
