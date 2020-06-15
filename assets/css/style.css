@@ -79,6 +79,7 @@ h4 {
 div#map {
     min-height: 360px;
     max-width: 720px;
+    position: center;
     
 }
 /*--------------------------------------------Heading*/
