@@ -1,0 +1,410 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #d42617;
+}
+
+.ui-menu-color-about {
+    background-color: #ab9672;
+}
+
+.ui-menu-color-products {
+    background-color: #d1af6f;
+}
+
+.ui-menu-color-contact {
+    background-color: #848283;
+}
+
+.row-table {
+    display: table;
+}
+
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------class .strokeme reference stackoverflow */
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: white;
+    text-shadow: -1px -1px 0 #d42617, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 0px;
+}
+
+
+.logo {
+    background: url("https://hameederrawi.github.io/UCFD-M-Project1/assets/images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 270px;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo-size {
+    width: 70%; 
+    height: 80px;
+}
+
+.imagetop {
+    background: url("../images/imagetop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    
+    margin-left: 100px;
+    font-weight: 1000;
+    font-size: 44px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    
+    margin-left: 75px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+
+/*--------------------------------------------class .strokeme reference stackoverflow */
+
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+
+/*--------------------------------------------class p::first-letter reference w3schools Got it working  
+after replacing P with h1 and target h1 with ::first-letter, this way other P elements in the body are not effected */
+
+h1::first-letter {
+  font-size: 200%;
+  color: #fdfdfd;
+  font-family: helvetica;
+  font-weight: bold;
+  
+}
+
+
+h1 {
+    height: 80px;
+}
+
+h2::first-letter {
+  font-size: 100%;
+  color: #ffffff;
+  font-family: helvetica;
+  font-weight: bold;
+  
+}
+
+/*--------------------------------------------class .container-style for carousel sizing */
+
+.container-style {
+    padding-right: 1px;
+    padding-left: 1px;
+    
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*--------------------------------------------menuitem */
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 80px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 100px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 22px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(43, 33, 33, 0.2);
+    height: 80px;
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #848283;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.brochure-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.brochure-pdf i:hover {
+    color: #d42617;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #d42617;
+}
+
+#footer-details {
+    padding: 20px;
+}
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #d42617;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+    
+}
+
+/* ----------------------------------------from google dev tools "found a problem with table margin" fixed top margin, fixed bottom margin
+ with the next media query below */
+.table {
+    margin-top: 0;
+    margin-bottom: 0;
+    background: url("http://realitydecor.com/assets/ROMANTICO/372345.jpg") ;
+}
+/* ----------------------------------------from google dev tools "found a problem with table border color" fixed by adding this media query */
+@media screen and (max-width: 767px){
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 0px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 0px;
+    }
+} 
+
+/* ----------------------------------------Zoom Hover from https://codepen.io/preecb/pen/mdJJdLy */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100px;
+    
+}
+.image-box img {
+    max-width: 100%;
+    -webkit-transition: all 2.0s;
+    -o-transition: all 2.0s;
+    transition: all 2.0s;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}
+
+.image-box:hover img {
+    -webkit-transform: scale(2.9);
+        -ms-transform: scale(2.9);
+            transform: scale(2.9);
+}
+
+.titletext {
+ color: rgb(58, 58, 52);
+ font-size: 12px;
+ text-transform: uppercase;
+}
+
+.titletxt {
+ color: rgb(241, 241, 235);
+ font-size: 12px;
+ text-transform: uppercase;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px;
+}
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/*----------------------- jumbotron bootstrap class */
+
+.jumbotron {
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: inherit;
+    margin-top: 0;
+    padding: 0rem 0rem;      
+}
