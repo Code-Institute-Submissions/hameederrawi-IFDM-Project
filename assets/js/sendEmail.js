@@ -4,7 +4,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "company_name": contactForm.cname.value,
         "tel_number": contactForm.tel.value,
-        "project_request": contactForm.projectsummary.value
+        "info_request": contactForm.inforequest.value
     })
     .then(
         function(response) {
