@@ -1,10 +1,9 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "realitycontact", {
+    emailjs.send("gmail", "realitycontact_clone", {
         "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "company_name": contactForm.cname.value,
+        "from_email": contactForm.emailaddress.value,        
         "tel_number": contactForm.tel.value,
-        "info_request": contactForm.inforequest.value
+        "cat_num": contactForm.catnum.value
     })
     .then(
         function(response) {
@@ -14,5 +13,5 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    return alert("Message sent, Thank you");
+    return alert("Quote request sent, Thank you");
 }
