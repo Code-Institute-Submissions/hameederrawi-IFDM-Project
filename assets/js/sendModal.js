@@ -1,9 +1,9 @@
-function sendMail(contactForm) {
+function sendMail(modal) {
     emailjs.send("gmail", "realitycontact_clone", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,        
-        "tel_number": contactForm.tel.value,
-        "cat_num": contactForm.catnum.value
+        "from_name": modal.name.value,
+        "from_email": modal.emailaddress.value,        
+        "tel_number": modal.tel.value,
+        "cat_num": modal.catnum.value
     })
     .then(
         function(response) {

@@ -16,3 +16,4 @@ function sendMail(contactForm) {
     );
     return alert("Message sent, Thank you");
 }
+
