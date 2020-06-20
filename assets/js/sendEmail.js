@@ -89,9 +89,18 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-// an alert message will display when message is sent
-    alert("Thank you " + fname.value + " " + lname.value + " Your message is sent");
-    return true ;
+    
+// after form submission, the h2 contents will be replaced with thank you message using fname and lname of sender
+//and the form will be replaced with the owner signature 
+    
+    var realityM = ("Thank you " + fname.value + " " + lname.value + " Your message is sent");
+    document.getElementById("thankYouMessage").innerHTML = realityM; 
+    var reality = "The Reality Decor Team";
+    document.getElementById("formC").setAttribute('align', 'center');
+    document.getElementById("formC").innerHTML = reality;    
+    return false;
     
 }
+
+
 

@@ -60,9 +60,9 @@
         <div id="map"></div>
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center">Contact Us</h3>
-                <div class="center-form">
-                  <form id="contact_form" onsubmit="return !!(ValidateEmail(emailaddress) && ValidateFname() && ValidateLname() && ValidateMessage() && Abuse() && sendMail(this));">
+                <h3 class="contact-heading uppercase text-center" id="thankYouMessage">Contact Us</h3>
+                <div class="center-form" id="formC">
+                  <form id="contact_form" onsubmit="return !!(ValidateEmail(emailaddress) && ValidateFname() && ValidateLname() && ValidateMessage() && Abuse() && sendMail(this) && redirect());">
                     <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required/>
                     <br>
                     <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required />
