@@ -90,8 +90,8 @@ function sendMail(contactForm) {
         }
     );
 // an alert message will display when message is sent
-    alert("Message sent, Thank you");
-    return false;
+    alert("Thank you " + fname.value + " " + lname.value + " Your message is sent");
+    return true ;
     
 }
 
