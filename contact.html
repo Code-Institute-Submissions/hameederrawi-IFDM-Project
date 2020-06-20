@@ -62,12 +62,12 @@
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">Contact Us</h3>
                 <div class="center-form">
-                  <form id="contact_form" onsubmit="return !!(ValidateEmail(emailaddress) && sendMail(this));">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                  <form id="contact_form" onsubmit="return !!(ValidateEmail(emailaddress) && ValidateFname() && ValidateLname() && ValidateMessage() && Abuse() && sendMail(this));">
+                    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required/>
                     <br>
-                    <input type="text" name="cname" class="form-control" id="companyname" placeholder="Company Name" />
+                    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required />
                     <br>
-                    <input type="tel" name="tel" class="form-control" id="tel" placeholder="Telephone Number" required />
+                    <input type="text" name="cname" class="form-control" id="companyname" placeholder="Company Name" />                    
                     <br>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <br>
@@ -76,7 +76,6 @@
                     <button type="submit" class="btn btn-secondary center-block">Submit</button>
                   </form>
                 </div>
-
             </div>
         </div>
     </section>
