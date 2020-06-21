@@ -17,16 +17,19 @@ function ValidateEmail(emailaddress)
 function ValidateFname()
     {
 // the First Name will be validated using the pattern below, if do not match an alert message will display 
-    var letters = /^[A-Za-z]+$/;
+    //var letters = /^[A-Za-z]+$/;
+    var letters = "حسام";
     if(fname.value.match(letters))
     {
-    return true;
+        alert('لا نقبل الاتصال من زبالة على موقعنا'); 
+    return false;
     }
     else
     {
-    alert('Please input alphabet characters only in the First Name Field');
+    alert('الف هلا بالعلم');    
+    //alert('Please input alphabet characters only in the First Name Field');
     fname.focus();
-    return false;
+    return true;
     }
     }
 
