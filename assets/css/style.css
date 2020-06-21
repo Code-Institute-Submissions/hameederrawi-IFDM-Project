@@ -435,3 +435,8 @@ button[type="submit"] {
     margin-top: 0;
     padding: 0rem 0rem;      
 }
+.map {
+    
+    padding-left: 0px;
+    padding-right: 0px;
+}
