@@ -24,11 +24,50 @@ function ValidateFname()
         alert('لا نقبل الاتصال من زبالة على موقعنا');
     return false;
     }
-    var letters2 = "فادي";
+    var letters = "hussam";    
+     if(fname.value.match(letters))
+    {
+        alert('لا نقبل الاتصال من زبالة على موقعنا');
+    return false;
+    }
+    var letters = "husam";
+     if(fname.value.match(letters))
+    {
+        alert('لا نقبل الاتصال من زبالة على موقعنا');
+    return false;
+    }
+    var letters = "Hussam";    
+     if(fname.value.match(letters))
+    {
+        alert('لا نقبل الاتصال من زبالة على موقعنا');
+    return false;
+    }
+    var letters = "Husam";
+     if(fname.value.match(letters))
+    {
+        alert('لا نقبل الاتصال من زبالة على موقعنا');
+    return false;
+    }                                
+     
+    var letters2 = "فادي";     
+    if(fname.value.match(letters2))
+    {
+        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
+    return false;
+    }
+
+    var letters2 = "fadi";      
+    if(fname.value.match(letters2))
+    {
+        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
+    return false;
+    }
+    
+    var letters2 = "Fadi";
    
     if(fname.value.match(letters2))
     {
-        alert('المنايك لا يدخلون موقعنا'); 
+        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
     return false;
     }
     else
