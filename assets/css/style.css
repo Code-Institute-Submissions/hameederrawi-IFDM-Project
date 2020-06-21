@@ -448,8 +448,8 @@ button[type="submit"] {
  text-transform: uppercase;
 }
 
-.titletxt {
- color: rgb(241, 241, 235);
+.titletextLight {
+ color:rgb(58, 58, 52);
  font-size: 12px;
  text-transform: uppercase;
 }
