@@ -19,9 +19,16 @@ function ValidateFname()
 // the First Name will be validated using the pattern below, if do not match an alert message will display 
     //var letters = /^[A-Za-z]+$/;
     var letters = "حسام";
-    if(fname.value.match(letters))
+     if(fname.value.match(letters))
     {
-        alert('لا نقبل الاتصال من زبالة على موقعنا'); 
+        alert('لا نقبل الاتصال من زبالة على موقعنا');
+    return false;
+    }
+    var letters2 = "فادي";
+   
+    if(fname.value.match(letters2))
+    {
+        alert('المنايك لا يدخلون موقعنا'); 
     return false;
     }
     else
