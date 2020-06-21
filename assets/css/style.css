@@ -471,6 +471,12 @@ button[type="submit"] {
     }
 }
 
+.producstImages {
+
+    width: 100%; 
+    height: 50%;
+}
+
 /* Buttons */
 
 .btn--cta {
