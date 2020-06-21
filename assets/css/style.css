@@ -285,7 +285,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #d42617;
+    background: hsl(251, 83%, 50%);
 }
 
 #footer-details {

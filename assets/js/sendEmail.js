@@ -97,10 +97,38 @@ function sendMail(contactForm) {
     document.getElementById("thankYouMessage").innerHTML = realityM; 
     var reality = "The Reality Decor Team";
     document.getElementById("formC").setAttribute('align', 'center');
-    document.getElementById("formC").innerHTML = reality;    
-    return false;
+    document.getElementById("formC").innerHTML = reality;
     
-}
+     
+    var map =new google.maps.Map(document.getElementById("map"), {
+                zoom: 13,
+                center: {
+                        lat: 31.974204,
+                        lng: 35.865809
+                }
+            });
+            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
 
+            var locations = [
+                	
+                {lat: 31.9746628704, lng: 35.8416080475}, 
+                {lat: 31.9656628704, lng: 35.8916080475},  
+                                
+            ];
+
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length],
+                    label: "Reality Decor",
+
+                });
+            });
+
+            var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
+       
+            }
 
 
