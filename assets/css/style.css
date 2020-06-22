@@ -284,6 +284,11 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-links li a i:hover {
+    background: #3b5998;
+}
+
+/* ----------------------------------------Social media icons change to respective color upon hover  */
 .fa-youtube:hover {
         color: #f30000;
         -o-transition:.5s;
@@ -352,12 +357,6 @@ footer {
         transition:.5s;
     }
 
-.social-links li a i:hover {
-    background: #3b5998;
-}
-
-
-
 #footer-details {
     padding: 20px;
 }
@@ -395,7 +394,7 @@ button[type="submit"] {
 .table {
     margin-top: 0;
     margin-bottom: 0;
-    background: url("../../assets/images/372345.jpg");
+    background: url("../../assets/images/product_image_372345.jpg");
 }
 /* ----------------------------------------from google dev tools "found a problem with table border color" fixed by adding this media query */
 @media screen and (max-width: 767px){
@@ -443,13 +442,13 @@ button[type="submit"] {
 }
 
 .titletext {
- color: rgb(58, 58, 52);
+ color: rgb(0, 0, 0);
  font-size: 12px;
  text-transform: uppercase;
 }
 
 .titletextLight {
- color:rgb(58, 58, 52);
+ color: rgb(0, 0, 0);
  font-size: 12px;
  text-transform: uppercase;
 }
