@@ -32,6 +32,8 @@ The user can click on the products section to view a page consisting of a table 
 
 when the user hover the mouse over a product, the zoom effect will apply to enlarge the image for more detailed view.
 
+Each product will have a title as well as a tooltip title that will appear on mouse hover over products pictures displaying the product catalogue ID.
+
 when the user click on the selected product, a new page will open with the selected product image,
 
 The selected product will have a title of the collection name and the catalogue number and a button labled Get a Quote.
@@ -85,7 +87,9 @@ p::first-letter text effect, changing the first letter color and font type in th
 A Carousel displaying featured products, with "left-right" controls to change images.
 A Hover sweep down change color effect to menu items.
 A Hover zoom effect to the products images.
+A tooltip title that will appear on mouse hover over products pictures displaying the product catalogue ID.
 A Hover sweep down change color effect to the social network and download links.
+Social media icons change to respective color upon hover. 
 A google map in the contact page set at zoom level 5 which will change to zoom level 13 after form submission displaying
 two map markers with the business name (Reality decor) marking the two locations of the business.
 A form validation javascript functions validating the following:
@@ -99,11 +103,11 @@ function please use any of these words in the message (bad1, bad2, bad3) which c
 
 ## Technologies Used
 
-Html, CSS, APIs, jQuery, and Java Script
+HTML, CSS, APIs, jQuery, and javaScript
 
 link to bootstrap 4.2.1 for bootstrap styles to work
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 
 link to bootstrap 3.4.1 for carousel to work
 
@@ -115,22 +119,47 @@ link to cloudflare.com styles for hover to work
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-javascript source from bootstrap for carousel to work
+javascript source link from bootstrap for carousel to work
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-java script for modal function
+javascript source link for modal function
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+javascript source link to emailjs in order to send emails to work
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+
+javascript source link to google APIs for google map to work
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+
+Marker Clusterer link for markers to work
+
+    https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+
 
 ## Testing
 
 Tested all links in the project, they are all working as intended.
 
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
+
+Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
+as intended, please see images;
+1. Filled contact form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_form_filled.jpg
+2. Contact page after form submission https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_form_sent.jpg
+3. emailJS template for contact form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_contact.jpg
+4. emailJS template for modal form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_modal.jpg
+5. emailJs template for contact form autoreply https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_contact_template_autoreply.jpg
+6. emailJs template for modal form autoreply https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_modal_template_autoreply.jpg
+7. Auto reply send to customer email address https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/auto_reply_ToCustomer.jpg
+8. Email received by business owner as result of form submission https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_email_recived_from_form.jpg
 
 ## Deployment
 
@@ -168,15 +197,10 @@ I used text effext code (class p::first-letter from w3schools.com).
 
 I used Zoom Hover effect from (https://codepen.io/preecb/pen/mdJJdLy).
 
+I used inspiration for form validation codes from w3schools which pointed in the direction I needed for my code.
+
+I used code for Social media icons change to respective color upon hover from https://stackoverflow.com
+
+
 #### Notes
 
-I started this project in a different repositoy https://github.com/hameederrawi/UCFD-M-Project1
-but encountered a problem with git commands as I was trying to remove some unwanted files (as adviced by mentor) via
-the .git rm command, I was then encountering the "diverged" error .
-I encountered the error above few days before project submission dead line.
-I did not have much time to risk in research for a solution, as unfortunatly Github was displaying the message "github peges error, maybe a connection problem".
-So I started this new repository and copied all needed files to it.
-Hence the previous repository will have more record of commits than this one.
-
-The unwanted files that were created with the repository automatically have now been removed (using the same commands that caused the error above,
-There was no issue this time!) I reached out to Code institute support prior to attempting the removal, they confirmed the commands to use.

@@ -1,5 +1,7 @@
 function ValidateEmail(emailaddress)
     {
+// I used inspiration for all form validation codes in this page from w3schools which pointed me in the direction I needed for my code.
+
 // the email will be validated using the pattern below, if do not match an alert message will display
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(emailaddress.value.match(mailformat))
@@ -72,7 +74,7 @@ function ValidateMessage()
 
 function sendMail(contactForm) {
 // Note- when connecting to the email service (emailJS in this case) pass 2 arguments the 1st is the service used
-// the second is the email tempalte name created at emailJS
+// the second is the email tempalte name created at emailJS as learned from CodeInstitute course
     emailjs.send("gmail", "realitycontact", {
         "from_fname": contactForm.fname.value,
         "from_lname": contactForm.lname.value,
@@ -99,7 +101,7 @@ function sendMail(contactForm) {
     document.getElementById("formC").setAttribute('align', 'center');
     document.getElementById("formC").innerHTML = reality;
     
-     
+// Adding google Map as learned from CodeInstitute course     
     var map =new google.maps.Map(document.getElementById("map"), {
                 zoom: 13,
                 center: {
