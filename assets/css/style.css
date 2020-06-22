@@ -93,7 +93,7 @@ header {
 
 
 .logo {
-    background: url("https://hameederrawi.github.io/UCFD-M-Project1/assets/images/logo.png");
+    background: url("../../assets/images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,7 +394,7 @@ button[type="submit"] {
 .table {
     margin-top: 0;
     margin-bottom: 0;
-    
+    background-image: url("../../assets/images/product_background.jpg");
 }
 
 /* ----------------------------------------added the following class for the product page background image to improve visibility */
