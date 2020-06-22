@@ -395,7 +395,7 @@ button[type="submit"] {
 .table {
     margin-top: 0;
     margin-bottom: 0;
-    background: url("../../assets/images/372345.jpg") ;
+    background: url("../../assets/images/372345.jpg");
 }
 /* ----------------------------------------from google dev tools "found a problem with table border color" fixed by adding this media query */
 @media screen and (max-width: 767px){

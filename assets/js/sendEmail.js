@@ -17,65 +17,16 @@ function ValidateEmail(emailaddress)
 function ValidateFname()
     {
 // the First Name will be validated using the pattern below, if do not match an alert message will display 
-    //var letters = /^[A-Za-z]+$/;
-    var letters = "حسام";
-     if(fname.value.match(letters))
+    var letters = /^[A-Za-z]+$/;
+    if(fname.value.match(letters))
     {
-        alert('لا نقبل الاتصال من زبالة على موقعنا');
-    return false;
-    }
-    var letters = "hussam";    
-     if(fname.value.match(letters))
-    {
-        alert('لا نقبل الاتصال من زبالة على موقعنا');
-    return false;
-    }
-    var letters = "husam";
-     if(fname.value.match(letters))
-    {
-        alert('لا نقبل الاتصال من زبالة على موقعنا');
-    return false;
-    }
-    var letters = "Hussam";    
-     if(fname.value.match(letters))
-    {
-        alert('لا نقبل الاتصال من زبالة على موقعنا');
-    return false;
-    }
-    var letters = "Husam";
-     if(fname.value.match(letters))
-    {
-        alert('لا نقبل الاتصال من زبالة على موقعنا');
-    return false;
-    }                                
-     
-    var letters2 = "فادي";     
-    if(fname.value.match(letters2))
-    {
-        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
-    return false;
-    }
-
-    var letters2 = "fadi";      
-    if(fname.value.match(letters2))
-    {
-        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
-    return false;
-    }
-    
-    var letters2 = "Fadi";
-   
-    if(fname.value.match(letters2))
-    {
-        alert(' المنايك لا يدخلون موقعنا الا مع خواتهم الكحاب'); 
-    return false;
+    return true;
     }
     else
     {
-    alert('الف هلا بالعلم');    
-    //alert('Please input alphabet characters only in the First Name Field');
+    alert('Please input alphabet characters only in the First Name Field');
     fname.focus();
-    return true;
+    return false;
     }
     }
 
