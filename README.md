@@ -152,14 +152,14 @@ Tested the project on Google DevTools, The project works on all screen sizes as 
 
 Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
 as intended, please see images;
-1. Filled contact form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_form_filled.jpg
-2. Contact page after form submission https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_form_sent.jpg
-3. emailJS template for contact form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_contact.jpg
-4. emailJS template for modal form https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_modal.jpg
-5. emailJs template for contact form autoreply https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_contact_template_autoreply.jpg
-6. emailJs template for modal form autoreply https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/reality_modal_template_autoreply.jpg
-7. Auto reply send to customer email address https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/auto_reply_ToCustomer.jpg
-8. Email received by business owner as result of form submission https://hameederrawi.github.io/IFDM-Project/contact.html/emailTestImages/sample_email_recived_from_form.jpg
+1. Filled contact form https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_form_filled.jpg
+2. Contact page after form submission https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_form_sent.jpg
+3. emailJS template for contact form https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_contact.jpg
+4. emailJS template for modal form https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_modal.jpg
+5. emailJs template for contact form autoreply https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_contact_template_autoreply.jpg
+6. emailJs template for modal form autoreply https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_modal_template_autoreply.jpg
+7. Auto reply send to customer email address https://hameederrawi.github.io/IFDM-Project/emailTestImages/auto_reply_ToCustomer.jpg
+8. Email received by business owner as result of form submission https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_email_recived_from_form.jpg
 
 ## Deployment
 
