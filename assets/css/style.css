@@ -394,12 +394,13 @@ button[type="submit"] {
 .table {
     margin-top: 0;
     margin-bottom: 0;
-    /* background: url("../../assets/images/product_image_372345.jpg"); */
+    
 }
 
+/* ----------------------------------------added the following class for the product page background image to improve visibility */
 .bg {
   width: 100%;
-  background-image: url("../../assets/images/product_image_372345.jpg");
+  background-image: url("../../assets/images/product_background.jpg");
   background-size:100% 100%;
   color:white;
 }
