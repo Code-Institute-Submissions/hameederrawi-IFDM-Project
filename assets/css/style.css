@@ -514,3 +514,19 @@ button[type="submit"] {
     margin-top: 0;
     padding: 0rem 0rem;      
 }
+
+/*----------------------- Why Wall Covering page text class */
+.led-wallpaper-text-style {    
+    font-family: "American Typewriter", Times, serif;
+    font-weight: 280;
+}
+
+.ingo-maurer {
+    font-family: "American Typewriter", Times, serif;
+    text-align: right;
+    font-weight: 380;
+}
+/*----------------------- Why Wallpaper page ul li class */
+.whyWallpaper-ul-li {
+    margin-left: 35px;
+}
