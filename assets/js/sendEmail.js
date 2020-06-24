@@ -10,8 +10,10 @@ function ValidateEmail(emailaddress)
     }
     else
     {
+//alert message will display
     alert("You have entered an invalid email address!");
     emailaddress.focus();
+    document.getElementById("emailaddress").this.val("");
     return false;
     }
     }
@@ -26,6 +28,7 @@ function ValidateFname()
     }
     else
     {
+//alert message will display
     alert('Please input alphabet characters only in the First Name Field');
     fname.focus();
     return false;
@@ -34,7 +37,7 @@ function ValidateFname()
 
 var Abuse = function ()
         {
-// getElementById is used in this filter, input the id of the field you want to validate
+// getElementById is used in this filter, input the id of the field you want to validate - code from https://stackoverflow.com with some adjustments by me.
             var com = document.getElementById('inforequest');
             var filterWords = ["bad1", "bad2", "bad3"];
             // "i" is to ignore case and "g" for global
@@ -55,6 +58,7 @@ function ValidateLname()
     }
     else
     {
+//alert message will display
     alert('Please input alphabet characters only in the Last Name Field');
     lname.focus();
     return false;
@@ -66,6 +70,7 @@ function ValidateMessage()
    {
      if (inforequest.value.length <= 15)
       { 
+//alert message will display
          alert("Message field is too short!");  	
          return false; 
       }  	
@@ -93,7 +98,7 @@ function sendMail(contactForm) {
     );
     
 // after form submission, the h2 contents will be replaced with thank you message using fname and lname of sender
-//and the form will be replaced with the owner signature 
+//and the form will be replaced with the website owner signature 
     
     var realityM = ("Thank you " + fname.value + " " + lname.value + " Your message is sent");
     document.getElementById("thankYouMessage").innerHTML = realityM; 
@@ -122,6 +127,7 @@ function sendMail(contactForm) {
                 return new google.maps.Marker({
                     position: location,
                     label: labels[i % labels.length],
+//added a label to the marker
                     label: "Reality Decor",
 
                 });
