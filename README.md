@@ -77,7 +77,7 @@ Social: on click - redirects the user to the relevant social network.
 
 Mockups link:
 
-https://github.com/hameederrawi/IFDM-Project/tree/master/assets/mockup
+https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
 
 ## Features
 
@@ -147,19 +147,31 @@ Marker Clusterer link for markers to work
 ## Testing
 
 Tested all links in the project, they are all working as intended.
+Tested to be ok the html and css code in 
+https://validator.w3.org 
+https://jigsaw.w3.org/css-validator/validator
+
 
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
 Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
 as intended, please see images;
-1. Filled contact form https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_form_filled.jpg
-2. Contact page after form submission https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_form_sent.jpg
-3. emailJS template for contact form https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_contact.jpg
-4. emailJS template for modal form https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_modal.jpg
-5. emailJs template for contact form autoreply https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_contact_template_autoreply.jpg
-6. emailJs template for modal form autoreply https://hameederrawi.github.io/IFDM-Project/emailTestImages/reality_modal_template_autoreply.jpg
-7. Auto reply send to customer email address https://hameederrawi.github.io/IFDM-Project/emailTestImages/auto_reply_ToCustomer.jpg
-8. Email received by business owner as result of form submission https://hameederrawi.github.io/IFDM-Project/emailTestImages/sample_email_recived_from_form.jpg
+1. Filled contact form 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_form_filled.jpg" width= 100%>
+2. Contact page after form submission 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_form_sent.jpg" width=100%>
+3. emailJS template for contact form 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_contact.jpg" width=100%>
+4. emailJS template for modal form 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_modal.jpg" width=100%>
+5. emailJs template for contact form auto-reply 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_contact_template_autoreply.jpg" width=100%>
+6. emailJs template for modal form auto-reply 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_modal_template_autoreply.jpg" width=100%>
+7. Auto reply send to customer email address 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/auto_reply_ToCustomer.jpg" width=100%>
+8. Email received by business owner as result of form submission 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%>
 
 ## Deployment
 
@@ -174,7 +186,7 @@ Code institute, Google dev tools, Bootstrap, Cloudflare, Googleapis, Stackoverfl
 
 ### Content
 
-The text for "About Section" was copied from http://www.as-creation.com/company/about-us.html
+The text for "About Section" was provided by Reality Decor.
 
 ### Media
 
