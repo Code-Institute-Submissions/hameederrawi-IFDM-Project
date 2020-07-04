@@ -94,7 +94,7 @@ Mockups link:
 
 https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
 
-<a href="/assets/images/mockup/mockup.pdf">Click here to view mockup diagrams</a>
+<a href="/assets/images/mockup/mockup.pdf" target="_blank">Click here to view mockup diagrams</a>
 
 ## Features
 
