@@ -151,27 +151,28 @@ Tested to be ok the html and css code in
 https://validator.w3.org 
 https://jigsaw.w3.org/css-validator/validator
 
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/htmlCssValidator/testhtml.jpg" width=100%>
 
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
 Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
 as intended, please see images;
 1. Filled contact form 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_form_filled.jpg" width= 100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/sample_form_filled.jpg" width= 100%>
 2. Contact page after form submission 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_form_sent.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/sample_form_sent.jpg" width=100%>
 3. emailJS template for contact form 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_contact.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/reality_contact.jpg" width=100%>
 4. emailJS template for modal form 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_modal.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/reality_modal.jpg" width=100%>
 5. emailJs template for contact form auto-reply 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_contact_template_autoreply.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/reality_contact_template_autoreply.jpg" width=100%>
 6. emailJs template for modal form auto-reply 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/reality_modal_template_autoreply.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/reality_modal_template_autoreply.jpg" width=100%>
 7. Auto reply send to customer email address 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/auto_reply_ToCustomer.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/auto_reply_ToCustomer.jpg" width=100%>
 8. Email received by business owner as result of form submission 
-<br><img src="https://hameederrawi.github.io/IFDM-Project/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%>
+<br><img src="https://hameederrawi.github.io/IFDM-Project/css/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%>
 
 ## Deployment
 
