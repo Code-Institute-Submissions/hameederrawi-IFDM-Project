@@ -14,6 +14,21 @@ Reality Decor offers its customers a wide range of services: comprehensive depar
 
 This website has many products on display that will help the user to select from and request a quote on products they are interested in purchasing.
 
+<p style="font-size: 16px; font-weight:bold">User Stories:</p>
+
+As a user, I would like :
+
+<ul>
+                    <li class="whyWallpaper-ul-li">A simple and clean looking website.</li>
+                    <li class="whyWallpaper-ul-li">A website that I could navigate easily through.</li>
+                    <li class="whyWallpaper-ul-li">A website that I could use on desktop, tablets and mobile devices.</li>
+                    <li class="whyWallpaper-ul-li">To find out the product I am looking for easily</li>
+                    <li class="whyWallpaper-ul-li">To know the location of the business if I need to visit.</li>
+                </ul>
+
+
+<p style="font-size: 15px; font-weight:600">The website has been designed for mobile first approach:</p>
+
 The website header will appear different from smaller devices to larger devices, on larger devices a logo image will appear,
 
 which will not be visible on smaller devices to give easier user experience in browsing.
@@ -78,6 +93,8 @@ Social: on click - redirects the user to the relevant social network.
 Mockups link:
 
 https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
+
+<img src="/assets/images/mockup/mockup.pdf">
 
 ## Features
 
