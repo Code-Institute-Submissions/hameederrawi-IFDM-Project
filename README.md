@@ -33,13 +33,52 @@ The website header will appear different from smaller devices to larger devices,
 
 which will not be visible on smaller devices to give easier user experience in browsing.
 
-The Home page in divided into three sections;
+The Home page is divided into three sections;
 
 Fisrt section, the header image and links to other pages.
 
-Second section, a Carousel displaying featured products.
+Second section, a Carousel displaying featured products.    
 
 Third section, a footer with company details, a download link for product catalogue and social media links.
+
+
+Logo: on click - redirects the user to the home page (only visible on screens larger than 375x812)
+Home: on click - redirects the user to the home page.
+About Us: on click - redirects the user to the about page for a brief introduction to the business.
+Products: on click - redirects the user to the products page.
+products modal: popup modal for "get a quote" on selected product.
+Contact: on click - redirects the user to the contact page, displaying a form for submission with required and optional fields.
+Social: on click - redirects the user to the relevant social network.
+
+
+Mockups link:
+
+https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
+
+<a href="/assets/images/mockup/mockup.pdf" target="_blank">Click here to view mockup diagrams</a>
+
+## Features
+
+The project consist of the following features:
+Strokeme text effect, adding color effect to the outline of the text in the name.
+p::first-letter text effect, changing the first letter color and font type in the name.
+A Carousel displaying featured products, with "left-right" controls to change images.
+A Hover sweep down change color effect to menu items.
+A Hover zoom effect to the products images.
+A tooltip title that will appear on mouse hover over products pictures displaying the product catalogue ID.
+A Hover sweep down change color effect to the social network and download links.
+Social media icons change to respective color upon hover. 
+A google map in the contact page set at zoom level 5 which will change to zoom level 13 after form submission displaying
+two map markers with the business name (Reality decor) marking the two locations of the business.
+A form validation javascript functions validating the following:
+1. First & Last name field validation; must be alphabet characters only, if not true will display alert message to correct the field.
+2. Email address field validation; must be an email address format, if not true will display alert message to correct the field.
+3. Message field validation; must be more than 15 characters, if not true will display alert message to correct the field.
+
+Also added a bad word validation function that will detect bad words in the message field and replace them with stars, for testing this
+function please use any of these words in the message (bad1, bad2, bad3) which can be replaced by chosen words in sendEmail.js/Abuse function.
+
+<p style="font-size: 16px; font-weight:bold">Using the website and features:</p>
 
 The user can click on the About Us menu button, the about page will be displayed giving information about the company.
 
@@ -81,46 +120,16 @@ they provided in the email address form field.
 
 The website has the following links;
 
-Logo: on click - redirects the user to the home page (only visible on screens larger than 375x812)
-Home: on click - redirects the user to the home page.
-About Us: on click - redirects the user to the about page for a brief introduction to the business.
-Products: on click - redirects the user to the products page.
-products modal: popup modal for "get a quote" on selected product.
-Contact: on click - redirects the user to the contact page, displaying a form for submission with required and optional fields.
-Social: on click - redirects the user to the relevant social network.
-
-
-Mockups link:
-
-https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
-
-<a href="/assets/images/mockup/mockup.pdf" target="_blank">Click here to view mockup diagrams</a>
-
-## Features
-
-The project consist of the following features:
-Strokeme text effect, adding color effect to the outline of the text in the name.
-p::first-letter text effect, changing the first letter color and font type in the name.
-A Carousel displaying featured products, with "left-right" controls to change images.
-A Hover sweep down change color effect to menu items.
-A Hover zoom effect to the products images.
-A tooltip title that will appear on mouse hover over products pictures displaying the product catalogue ID.
-A Hover sweep down change color effect to the social network and download links.
-Social media icons change to respective color upon hover. 
-A google map in the contact page set at zoom level 5 which will change to zoom level 13 after form submission displaying
-two map markers with the business name (Reality decor) marking the two locations of the business.
-A form validation javascript functions validating the following:
-1. First & Last name field validation; must be alphabet characters only, if not true will display alert message to correct the field.
-2. Email address field validation; must be an email address format, if not true will display alert message to correct the field.
-3. Message field validation; must be more than 15 characters, if not true will display alert message to correct the field.
-
-Also added a bad word validation function that will detect bad words in the message field and replace them with stars, for testing this
-function please use any of these words in the message (bad1, bad2, bad3) which can be replaced by chosen words in sendEmail.js/Abuse function.
-
-
 ## Technologies Used
 
 HTML, CSS, APIs, jQuery, and javaScript
+
+<ul>
+   <li class="whyWallpaper-ul-li">The project uses APIs for google maps and contact form.</li>
+   <li class="whyWallpaper-ul-li">The project uses JQuery to simplify DOM manipulation.</li>
+</ul>
+
+
 
 link to bootstrap 4.2.1 for bootstrap styles to work
 
