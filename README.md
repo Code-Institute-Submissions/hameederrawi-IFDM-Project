@@ -19,31 +19,32 @@ This website has many products on display that will help the user to select from
 As a user, I would like :
 
 <ul>
-                    <li class="whyWallpaper-ul-li">A simple and clean looking website.</li>
-                    <li class="whyWallpaper-ul-li">A website that I could navigate easily through.</li>
-                    <li class="whyWallpaper-ul-li">A website that I could use on desktop, tablets and mobile devices.</li>
-                    <li class="whyWallpaper-ul-li">To find out the product I am looking for easily</li>
-                    <li class="whyWallpaper-ul-li">A contact form, to be able to contact the business owners for queries.</li>
-                    <li class="whyWallpaper-ul-li">To know the location of the business if I need to visit.</li>
-                </ul>
+    <li class="whyWallpaper-ul-li">A simple and clean looking website.</li>
+    <li class="whyWallpaper-ul-li">A website that I could navigate easily through.</li>
+    <li class="whyWallpaper-ul-li">A website that I could use on desktop, tablets and mobile devices.</li>
+    <li class="whyWallpaper-ul-li">To find out the product I am looking for easily</li>
+    <li class="whyWallpaper-ul-li">A contact form, to be able to contact the business owners for queries.</li>
+    <li class="whyWallpaper-ul-li">To know the location of the business if I need to visit.</li>
+</ul>
 
 
 <p style="font-size: 15px; font-weight:600">The website has been designed for mobile first approach:</p>
 
-The website header will appear different from smaller devices to larger devices, on larger devices a logo image will appear,
+The website header will appear different from smaller devices to larger devices, on larger devices (768 width and larger screens) a logo image will appear,
 
 which will not be visible on smaller devices to give easier user experience in browsing.
 
+
 The Home page is divided into three sections;
 
-Fisrt section, the header image and links to other pages.
+<ul>
+    <li class="whyWallpaper-ul-li">Fisrt section, the header image and links to other pages.(A logo that will only appear on 768 width and larger screens.</li>
+    <li class="whyWallpaper-ul-li">Second section, a Carousel displaying featured products.</li>
+    <li class="whyWallpaper-ul-li">Third section, a footer with company details, a download link for product catalogue and social media links.</li>    
+</ul>
 
-Second section, a Carousel displaying featured products.    
 
-Third section, a footer with company details, a download link for product catalogue and social media links.
-
-
-Logo: on click - redirects the user to the home page (only visible on screens larger than 375x812)
+Logo: on click - redirects the user to the home page (only visible on screens wider than 768).
 Home: on click - redirects the user to the home page.
 About Us: on click - redirects the user to the about page for a brief introduction to the business.
 Products: on click - redirects the user to the products page.
