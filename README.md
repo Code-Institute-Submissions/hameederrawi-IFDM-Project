@@ -292,6 +292,10 @@ I used text effext code (class p::first-letter from w3schools.com) https://www.w
 
 I used Zoom Hover effect from (https://codepen.io/preecb/pen/mdJJdLy).
 
+I added the google map APIs as learned from codeinstitute tutorials.
+
+I added the contact form and the modal contact form functionality as learned from codeinstitute tutorials.
+
 I used inspiration for form validation codes from w3schools https://www.w3schools.com/tags/att_input_pattern.asp
 which pointed in the direction I needed for my code.
 
