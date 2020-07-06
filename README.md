@@ -147,7 +147,9 @@ The website has the following links:
    <li class="whyWallpaper-ul-li">The project uses JQuery to simplify DOM manipulation.</li>
 </ul>
 
-
+<br>
+<p style="font-size: 16px; font-weight:bold">Project Links:</p>
+<br>
 
 link to bootstrap 4.2.1 for bootstrap styles to work
 
