@@ -23,6 +23,7 @@ As a user, I would like :
                     <li class="whyWallpaper-ul-li">A website that I could navigate easily through.</li>
                     <li class="whyWallpaper-ul-li">A website that I could use on desktop, tablets and mobile devices.</li>
                     <li class="whyWallpaper-ul-li">To find out the product I am looking for easily</li>
+                    <li class="whyWallpaper-ul-li">To be able to contact the business owners for queries.</li>
                     <li class="whyWallpaper-ul-li">To know the location of the business if I need to visit.</li>
                 </ul>
 
