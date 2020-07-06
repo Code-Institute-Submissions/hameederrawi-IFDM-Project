@@ -43,21 +43,27 @@ The Home page is divided into three sections;
     <li class="whyWallpaper-ul-li">Third section, a footer with company details, a download link for product catalogue and social media links.</li>    
 </ul>
 
+<br>
+<p style="font-size: 16px; font-weight:bold">Using the website links:</p>
+<br>
+<ul>
+    <li class="whyWallpaper-ul-li">Logo: on click - redirects the user to the home page (only visible on screens wider than 768).</li>
+    <li class="whyWallpaper-ul-li">Home: on click - redirects the user to the home page.</li>
+    <li class="whyWallpaper-ul-li">About Us: on click - redirects the user to the about page for a brief introduction to the business.</li>
+    <li class="whyWallpaper-ul-li">Products: on click - redirects the user to the products page.</li>
+    <li class="whyWallpaper-ul-li">products modal: popup modal for "get a quote" on selected product.</li>
+    <li class="whyWallpaper-ul-li">Contact: on click - redirects the user to the contact page, displaying a form for submission with required and optional fields.</li>
+    <li class="whyWallpaper-ul-li">Social: on click - redirects the user to the relevant social network.</li>        
+</ul>
 
-Logo: on click - redirects the user to the home page (only visible on screens wider than 768).
-Home: on click - redirects the user to the home page.
-About Us: on click - redirects the user to the about page for a brief introduction to the business.
-Products: on click - redirects the user to the products page.
-products modal: popup modal for "get a quote" on selected product.
-Contact: on click - redirects the user to the contact page, displaying a form for submission with required and optional fields.
-Social: on click - redirects the user to the relevant social network.
+<br>
+<p style="font-size: 16px; font-weight:bold">Mockups links:</p>
 
+<ul>
+    <li class="whyWallpaper-ul-li"><a href="https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup" target="_blank">https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup</li></a>
+    <li class="whyWallpaper-ul-li"><a href="/assets/images/mockup/mockup.pdf" target="_blank">Click here to view mockup diagrams</li></a>        
+</ul>
 
-Mockups link:
-
-https://github.com/hameederrawi/IFDM-Project/tree/master/assets/images/mockup
-
-<a href="/assets/images/mockup/mockup.pdf" target="_blank">Click here to view mockup diagrams</a>
 
 ## Features
 
