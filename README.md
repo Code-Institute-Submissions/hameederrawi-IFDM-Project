@@ -108,9 +108,9 @@ when the user clicks on the Contact menu button, the contact us page will be dis
 
 when all required fileds are filled, the user can click the submit button to submit the form, when the submit button is clicked;
 
-The form will be validated before submission, if there is any errors, the user will presented with alert message explaining the nature
+The form will be validated before submission, if there is any errors, the user will be presented with alert message explaining the nature
 
-of the error, when all validation are passed, the form will submit, the form section will be replaced displaying a message 
+of the error, when all validations are passed, the form will submit, the form section will be replaced displaying a message 
 
 with the user first and last name, thanking them for their message and the team signature bellow the message.
 
@@ -118,12 +118,30 @@ At this stage the form details are transmitted to the website owners for process
 
 they provided in the email address form field.
 
-The website has the following links;
+The website has the following links:
+
+<ul>
+   <li class="whyWallpaper-ul-li"><a href="index.html">Home</li>
+   <li class="whyWallpaper-ul-li"><a href="about.html">About</li>
+   <li class="whyWallpaper-ul-li"><a href="contact.html">Contact</li>
+   <li class="whyWallpaper-ul-li"><a href="products.html">Products</li>
+   <li class="whyWallpaper-ul-li"><a href="wallCoverings.html">Wallcoverings</li>
+   <li class="whyWallpaper-ul-li"><a href="whyWallparer.html">Why Wallparer</li>
+</ul>
 
 ## Technologies Used
 
-HTML, CSS, APIs, jQuery, and javaScript
+<p style="font-size: 16px; font-weight:bold">The project uses the following Technologies:</p>
 
+<ul>
+   <li class="whyWallpaper-ul-li">HTML</li>
+   <li class="whyWallpaper-ul-li">CSS</li>
+   <li class="whyWallpaper-ul-li">APIs</li>
+   <li class="whyWallpaper-ul-li">JQuery</li>
+   <li class="whyWallpaper-ul-li">JavaScript</li>
+</ul>
+
+<br>
 <ul>
    <li class="whyWallpaper-ul-li">The project uses APIs for google maps and contact form.</li>
    <li class="whyWallpaper-ul-li">The project uses JQuery to simplify DOM manipulation.</li>
@@ -182,7 +200,19 @@ https://jigsaw.w3.org/css-validator/validator
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
 Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
-as intended, please see images;
+as intended.
+
+Contact Form Testing:
+
+<ul>
+   <li class="whyWallpaper-ul-li">Go to the Contact Page.</li>
+   <li class="whyWallpaper-ul-li">Try to submit an empty form, invalid email address, invalid fields or a short contact message.</li>
+   <li class="whyWallpaper-ul-li">The browser will display a popup alert message indicating the error to be corrected.</li>
+   <li class="whyWallpaper-ul-li">Message will be sent after all errors are corrected.</li>
+</ul>
+
+<p style="font-size: 16px; font-weight:bold">Contact form successful submission images:</p>
+
 1. Filled contact form 
 <br><img src="/assets/images/emailTestImages/sample_form_filled.jpg" width= 100%>
 2. Contact page after form submission 
@@ -202,10 +232,14 @@ as intended, please see images;
 
 ## Deployment
 
-project was deployed to Github by;
-git add .
-git commit -m "..."
-git push
+project was deployed to Github by:
+
+<ul>
+   <li class="whyWallpaper-ul-li">git add .</li>
+   <li class="whyWallpaper-ul-li">git commit -m "..."</li>
+   <li class="whyWallpaper-ul-li">git push</li>
+</ul>
+
 
 ## Credits
 
@@ -228,18 +262,20 @@ I adjusted code, design and added my code as I needed for my project look, feel 
 I added the bootstrap modal in the products pages (get a quote - button) using the code learned in the "Whiskey Drop" codeinstitute
 tutorial with some modifications by myself.
 
-I used the carousel code from bootstrap and made some adjustment to reflect my intentions.
+I used the carousel code from bootstrap https://getbootstrap.com/docs/4.0/components/carousel/ 
+and made some adjustment to reflect my intentions.
 
-I used text effext code (class .strokeme from stackoverflow.com).
+I used text effext code (class .strokeme from stackoverflow.com) https://stackoverflow.com/questions/4919076/outline-effect-to-text
 
-I used text effext code (class p::first-letter from w3schools.com).
+I used text effext code (class p::first-letter from w3schools.com) https://www.w3schools.com/cssref/sel_firstletter.asp
 
 I used Zoom Hover effect from (https://codepen.io/preecb/pen/mdJJdLy).
 
-I used inspiration for form validation codes from w3schools which pointed in the direction I needed for my code.
+I used inspiration for form validation codes from w3schools https://www.w3schools.com/tags/att_input_pattern.asp
+which pointed in the direction I needed for my code.
 
-I used code for Social media icons change to respective color upon hover from https://stackoverflow.com
-
+I used code for Social media icons change to respective color upon hover from 
+https://stackoverflow.com/questions/45204670/social-media-icons-change-to-respective-color-upon-hover
 
 #### Notes
 
