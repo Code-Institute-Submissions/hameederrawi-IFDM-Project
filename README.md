@@ -121,12 +121,12 @@ they provided in the email address form field.
 The website has the following links:
 
 <ul>
-   <li class="whyWallpaper-ul-li"><a href="index.html">Home</li>
-   <li class="whyWallpaper-ul-li"><a href="about.html">About</li>
-   <li class="whyWallpaper-ul-li"><a href="contact.html">Contact</li>
-   <li class="whyWallpaper-ul-li"><a href="products.html">Products</li>
-   <li class="whyWallpaper-ul-li"><a href="wallCoverings.html">Wallcoverings</li>
-   <li class="whyWallpaper-ul-li"><a href="whyWallparer.html">Why Wallparer</li>
+   <li class="whyWallpaper-ul-li"><a href="index.html">Home</li></a>
+   <li class="whyWallpaper-ul-li"><a href="about.html">About</li></a>
+   <li class="whyWallpaper-ul-li"><a href="contact.html">Contact</li></a>
+   <li class="whyWallpaper-ul-li"><a href="products.html">Products</li></a>
+   <li class="whyWallpaper-ul-li"><a href="wallCoverings.html">Wallcoverings</li></a>
+   <li class="whyWallpaper-ul-li"><a href="whyWallparer.html">Why Wallparer</li></a>
 </ul>
 
 ## Technologies Used
@@ -151,7 +151,7 @@ The website has the following links:
 <p style="font-size: 16px; font-weight:bold">Project Links:</p>
 <br>
 
-link to bootstrap 4.2.1 for bootstrap styles to work
+link to bootstrap 4.2.1 for bootstrap styles to work   
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 
@@ -194,15 +194,26 @@ Marker Clusterer link for markers to work
 
 Tested all links in the project, they are all working as intended.
 Tested to be ok the html and css code in 
-https://validator.w3.org 
-https://jigsaw.w3.org/css-validator/validator
+
+<ul>
+   <li class="whyWallpaper-ul-li"><a href="https://validator.w3.org">https://validator.w3.org </li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator</li></a>
+</ul>
+
+
+
 
 <br><img src="/assets/images/htmlCssValidator/testhtml.jpg" width=100%>
 
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
-Created and tested 2 email templates at https://dashboard.emailjs.com/templates, tested both templates, they are both working
-as intended.
+Created and tested 2 email templates at:
+<br>
+<ul>
+   <li class="whyWallpaper-ul-li"><a href="https://dashboard.emailjs.com/templates">https://dashboard.emailjs.com/templates</li></a>   
+</ul>
+
+Tested both templates, they are both working as intended.
 
 Contact Form Testing:
 
