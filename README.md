@@ -231,25 +231,25 @@ Contact Form Testing:
    <li class="whyWallpaper-ul-li">The browser will display a popup alert message indicating the error to be corrected.</li>
    <li class="whyWallpaper-ul-li">Message will be sent after all errors are corrected.</li>
 </ul>
-
-<p style="font-size: 16px; font-weight:bold">Contact form successful submission images:</p>
+<br>
+<p style="font-size: 16px; font-weight:bold">Contact form successful submission images:</p><br>
 
 1. Filled contact form 
-<br><img src="/assets/images/emailTestImages/sample_form_filled.jpg" width= 100%>
+<br><br><img src="/assets/images/emailTestImages/sample_form_filled.jpg" width= 100%><br><br>
 2. Contact page after form submission 
-<br><img src="/assets/images/emailTestImages/sample_form_sent.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/sample_form_sent.jpg" width=100%><br><br>
 3. emailJS template for contact form 
-<br><img src="/assets/images/emailTestImages/reality_contact.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/reality_contact.jpg" width=100%><br><br>
 4. emailJS template for modal form 
-<br><img src="/assets/images/emailTestImages/reality_modal.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/reality_modal.jpg" width=100%><br><br>
 5. emailJs template for contact form auto-reply 
-<br><img src="/assets/images/emailTestImages/reality_contact_template_autoreply.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/reality_contact_template_autoreply.jpg" width=100%><br><br>
 6. emailJs template for modal form auto-reply 
-<br><img src="/assets/images/emailTestImages/reality_modal_template_autoreply.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/reality_modal_template_autoreply.jpg" width=100%><br><br>
 7. Auto reply send to customer email address 
-<br><img src="/assets/images/emailTestImages/auto_reply_ToCustomer.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/auto_reply_ToCustomer.jpg" width=100%><br><br>
 8. Email received by business owner as result of form submission 
-<br><img src="/assets/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%>
+<br><br><img src="/assets/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%><br><br>
 
 ## Deployment
 
