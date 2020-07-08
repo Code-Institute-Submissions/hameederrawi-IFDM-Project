@@ -14,7 +14,7 @@ function initMap() {
                 {lat: 31.9656628704, lng: 35.8916080475},  
                                 
             ];
-
+// Added label: "Reality Decor" to display on markers.
             var markers = locations.map(function(location, i) {
                 return new google.maps.Marker({
                     position: location,

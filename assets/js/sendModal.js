@@ -1,3 +1,4 @@
+// This function is for the modal form submission based on emailJS function learned from CodeInstitute course
 function sendMail(modal) {
     emailjs.send("gmail", "realitycontact_clone", {
         "from_name": modal.name.value,

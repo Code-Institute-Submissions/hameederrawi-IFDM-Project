@@ -2,7 +2,7 @@ function ValidateEmail(emailaddress)
     {
 // I used inspiration for all form validation codes in this page from w3schools which pointed me in the direction I needed for my code.
 
-// the email will be validated using the pattern below, if do not match an alert message will display
+// The email will be validated using the pattern below, if do not match an alert message will display
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(emailaddress.value.match(mailformat))
     {
@@ -10,7 +10,7 @@ function ValidateEmail(emailaddress)
     }
     else
     {
-//alert message will display
+//Alert message will display on error
     alert("You have entered an invalid email address!");
     emailaddress.focus();
     document.getElementById("emailaddress").this.val("");
@@ -20,7 +20,7 @@ function ValidateEmail(emailaddress)
 
 function ValidateFname()
     {
-// the First Name will be validated using the pattern below, if do not match an alert message will display 
+// The First Name will be validated using the pattern below, if do not match an alert message will display 
     var letters = /^[A-Za-z]+$/;
     if(fname.value.match(letters))
     {
@@ -28,7 +28,7 @@ function ValidateFname()
     }
     else
     {
-//alert message will display
+//Alert message will display on error
     alert('Please input alphabet characters only in the First Name Field');
     fname.focus();
     return false;
@@ -44,13 +44,13 @@ var Abuse = function ()
             var rgx = new RegExp("("+filterWords.join("|")+")", "gi");
             com.value = com.value.replace(rgx, "****");
 
-// 'return true;' when you will be sure that all your bad words are caught to continue to the next function otherwise a return false will stop the next step.
+// 'return true' when you will be sure that all your bad words are caught to continue to the next function otherwise a return false will stop the next step.
             return true;
         }
 
 function ValidateLname()
     {
-// the Last Name will be validated using the pattern below, if do not match an alert message will display 
+// The Last Name will be validated using the pattern below, if do not match an alert message will display 
     var letters = /^[A-Za-z]+$/;
     if(lname.value.match(letters))
     {    
@@ -58,7 +58,7 @@ function ValidateLname()
     }
     else
     {
-//alert message will display
+//Alert message will display on error
     alert('Please input alphabet characters only in the Last Name Field');
     lname.focus();
     return false;
@@ -70,7 +70,7 @@ function ValidateMessage()
    {
      if (inforequest.value.length <= 15)
       { 
-//alert message will display
+//Alert message will display on error
          alert("Message field is too short!");  	
          return false; 
       }  	
@@ -97,7 +97,7 @@ function sendMail(contactForm) {
         }
     );
     
-// after form submission, the h2 contents will be replaced with thank you message using fname and lname of sender
+// After form submission, the h2 contents will be replaced with thank you message using fname and lname of sender
 //and the form will be replaced with the website owner signature 
     
     var realityM = ("Thank you " + fname.value + " " + lname.value + " Your message is sent");
