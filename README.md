@@ -1,16 +1,24 @@
-## Project Name
 
-Reality Decor
 
-This project is for a high quality wallpaper and furniture company called THE A.S. CRÉATION GROUP that has many branches and distributors worldwide.
+## Reality Decor Website
 
-This website is for THE A.S. CRÉATION GROUP Middle-East distributors, to sell the group products online.
+<p>
+    <a href="https://hameederrawi.github.io/IFDM-Project/" rel="nofollow">View the live project here.</a>
+</p>
+
+This is the main marketing website for Reality Decor. 
+It is designed to be responsibe and accessible on a range of devices, 
+making it easy to navigate for potential customers.
+
+<img src="/assets/images/responsive_images.jpg">
+
+Reality Decor are the Middle-East distributors for THE A.S. CRÉATION GROUP that specialises in high quality wallpaper and furniture.
 
 The wallpapers are primarily produced in Germany at A.S. Création Tapeten AG on the site in Wiehl-Bomig.
 
 Reality Decor offers its customers a wide range of services: comprehensive departmental planning, shop-fitting, ordering, decoration, individual marketing concepts, sales promotional packages, concepts for point-of-sale (POS), as well as a 24-hour delivery service.
 
-## UX
+## User Experience (UX)
 
 This website has many products on display that will help the user to select from and request a quote on products they are interested in purchasing.
 
@@ -201,17 +209,17 @@ Marker Clusterer link for markers to work
 ## Testing
 
 Tested all links in the project, they are all working as intended.
-Tested to be ok the html and css code in 
+Tested to be ok the html, css and js code in 
 
 <ul>
    <li class="whyWallpaper-ul-li"><a href="https://validator.w3.org">https://validator.w3.org </li></a>
    <li class="whyWallpaper-ul-li"><a href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://esprima.org/demo/validate.html">https://esprima.org/demo/validate.html</li></a>
 </ul>
 
 
-
-
 <br><img src="/assets/images/htmlCssValidator/testhtml.jpg" width=100%>
+<br><img src="/assets/images/htmlCssValidator/test_js.jpg" width=100%>
 
 Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
@@ -251,56 +259,127 @@ Contact Form Testing:
 8. Email received by business owner as result of form submission 
 <br><br><img src="/assets/images/emailTestImages/sample_email_recived_from_form.jpg" width=100%><br><br>
 
-## Deployment
 
-project was deployed to Github by:
+## Known Bugs
 
 <ul>
-   <li class="whyWallpaper-ul-li">git add .</li>
-   <li class="whyWallpaper-ul-li">git commit -m "..."</li>
-   <li class="whyWallpaper-ul-li">git push</li>
+   <li class="whyWallpaper-ul-li">On some mobile devices white gap can be seen to the bottom of the footer.</li>
 </ul>
 
+## Deployment
+
+<br>
+<p style="font-size: 16px; font-weight:bold">GitHub Pages</p>
+<br>
+
+
+The project was deployed to GitHub Pages using the following steps..
+
+<ol>
+   <li class="whyWallpaper-ul-li">Log in to GitHub and locate the <a href="https://github.com">GitHub Repository</a></li>
+   <li class="whyWallpaper-ul-li">At the top of the Repository (not top of page), locate the "Settings" Button on the menu.</li>
+      <ul>
+         <li class="whyWallpaper-ul-li">Alternatively Click <a href="https://github.com">for a GIF demonstrating the process starting from Step 2.</a></li>
+      </ul>   
+   <li class="whyWallpaper-ul-li">Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
+   <li class="whyWallpaper-ul-li">Under "Source", click the dropdown called "None" and select "Master Branch".</li>
+   <li class="whyWallpaper-ul-li">The page will automatically refresh.</li>
+   <li class="whyWallpaper-ul-li">Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+</ol>
+
+<br>
+<p style="font-size: 16px; font-weight:bold">Forking the GitHub Repository</p>
+<br>
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+<ol>
+    <li>Log in to GitHub and locate the <a href="https://github.com">GitHub Repository</a></li>
+    <li>At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+    <li>You should now have a copy of the original repository in your GitHub account.</li>
+</ol>
+
+<br>
+<p style="font-size: 16px; font-weight:bold">Making a Local Clone</p>
+<br>
+
+<ol>
+    <li>Log in to GitHub and locate the <a href="https://github.com">GitHub Repository</a></li>
+    <li>Under the repository name, click "Clone or download".</li>
+    <li>To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.</li>
+    <li>Open Git Bash</li>
+    <li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+    <li>Type git clone, and then paste the URL you copied in Step 3.</li>
+    <br>
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    <br><br>
+    <li>Press Enter. Your local clone will be created.</li>
+    <br>
+    <pre>
+        <code>
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        > Cloning into `CI-Clone`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
+        </code>
+    </pre>
+    <br><br>
+</ol>
+<p>
+Click 
+<a href="https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop">Here</a>
+ to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+</p><br>
 
 ## Credits
 
-Code institute, Google dev tools, Bootstrap, Cloudflare, Googleapis, Stackoverflow, W3schools, Codepen
+<br>
+<p style="font-size: 16px; font-weight:bold">Code</p>
 
-### Content
+<ul>
+    <li>Code institute tutorials</li>
+    <li><a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap4: </a>Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.</li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">CloudFlare: </a>For download and social network links hover effects</li>
+    <li><a href="ttps://getbootstrap.com/docs/4.0/components/carousel/">Bootstrap3: </a>Used for the carousel with some adjustment to reflect my intentions. </li>
+    <li><a href="https://www.w3schools.com/cssref/sel_firstletter.asp">W3schools: </a>Used for text effext code (class p::first-letter)</li>
+    <li><a href="https://stackoverflow.com/questions/4919076/outline-effect-to-text">Stackoverflow: </a>For text effext code (class .strokeme from stackoverflow.com)</li>
+    <li><a href="https://codepen.io/preecb/pen/mdJJdLy">Codepen: </a>For Zoom Hover effect</li>
+    <li><a href="https://www.w3schools.com/tags/att_input_pattern.asp">W3schools: </a>For form validation patterns which pointed in the direction I needed for my code</li>
+    <li><a href="https://stackoverflow.com/questions/45204670/social-media-icons-change-to-respective-color-upon-hover">Stackoverflow: </a>For Social media icons change to respective color upon hover</li>
+</ul>
 
-The text for "About Section" was provided by Reality Decor.
+<br>
+<p style="font-size: 16px; font-weight:bold">Content</p>
+ 
 
-### Media
+<ul>
+    <li>The text for "About Section" was provided by Reality Decor.</li>
+    <li>All contents was written by the developer.</li>
+</ul>
 
-The photos used in this site were obtained from Reality Decor and from The A.S. Création Group
+<br>
+<p style="font-size: 16px; font-weight:bold">Media</p>
 
-### Acknowledgements
+<ul>
+    <li>The photos used in this site were obtained from Reality Decor and from The A.S. Création Group</li>
+    <li>All other images were created by the developer.</li>
+</ul>
+<br>
 
-I received inspiration for this project from Code institute, Myself and my Wife.
+## Acknowledgements
+
+<ul>
+    <li>Code institute student care for thier continuous support</li>
+    <li>My wife for guidance and ideas</li>
+    <li>My Mentor for continuous helpful feedback</li>
+</ul>
+<br>
+
+## Notes
 
 I started this project from the codeinstitute Resume Project "Rosie Odenkirk" code and template (as mentioned in the tutorial),
 I adjusted code, design and added my code as I needed for my project look, feel and function.
 I added the bootstrap modal in the products pages (get a quote - button) using the code learned in the "Whiskey Drop" codeinstitute
 tutorial with some modifications by myself.
-
-I used the carousel code from bootstrap https://getbootstrap.com/docs/4.0/components/carousel/ 
-and made some adjustment to reflect my intentions.
-
-I used text effext code (class .strokeme from stackoverflow.com) https://stackoverflow.com/questions/4919076/outline-effect-to-text
-
-I used text effext code (class p::first-letter from w3schools.com) https://www.w3schools.com/cssref/sel_firstletter.asp
-
-I used Zoom Hover effect from (https://codepen.io/preecb/pen/mdJJdLy).
-
-I added the google map APIs as learned from codeinstitute tutorials.
-
-I added the contact form and the modal contact form functionality as learned from codeinstitute tutorials.
-
-I used inspiration for form validation codes from w3schools https://www.w3schools.com/tags/att_input_pattern.asp
-which pointed in the direction I needed for my code.
-
-I used code for Social media icons change to respective color upon hover from 
-https://stackoverflow.com/questions/45204670/social-media-icons-change-to-respective-color-upon-hover
-
-#### Notes
-
