@@ -159,8 +159,8 @@ The website has the following main links:
 <p style="font-size: 16px; font-weight:bold">The project uses the following Technologies:</p>
 
 <ul>
-   <li class="whyWallpaper-ul-li">HTML</li>
-   <li class="whyWallpaper-ul-li">CSS</li>
+   <li class="whyWallpaper-ul-li">HTML5</li>
+   <li class="whyWallpaper-ul-li">CSS3</li>
    <li class="whyWallpaper-ul-li">APIs</li>
    <li class="whyWallpaper-ul-li">JQuery</li>
    <li class="whyWallpaper-ul-li">JavaScript</li>
