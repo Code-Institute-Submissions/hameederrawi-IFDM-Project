@@ -75,6 +75,15 @@ The Home page is divided into three sections;
 
 ## Features
 
+<ul>
+    <li class="whyWallpaper-ul-li">Responsive on all device sizes</li>
+    <li class="whyWallpaper-ul-li">Interactive elements</li>        
+</ul>
+
+<br>
+<p style="font-size: 16px; font-weight:bold">Features Details:</p>
+
+
 The project consist of the following features:
 Strokeme text effect, adding color effect to the outline of the text in the name.
 p::first-letter text effect, changing the first letter color and font type in the name.
@@ -164,46 +173,65 @@ The website has the following links:
 </ul>
 
 <br>
-<p style="font-size: 16px; font-weight:bold">Project Links:</p>
+<p style="font-size: 16px; font-weight:bold">Frameworks, Libraries & Programs Used</p>
 <br>
 
-link to bootstrap 4.2.1 for bootstrap styles to work   
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-
-link to bootstrap 3.4.1 for carousel to work
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-
-link to cloudflare.com styles for hover to work
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-
-javascript source link from bootstrap for carousel to work
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-javascript source link for modal function
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-javascript source link to emailjs in order to send emails to work
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-
-javascript source link to google APIs for google map to work
-
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
-
-Marker Clusterer link for markers to work
-
-    https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+<ol>
+   <li class="whyWallpaper-ul-li"><a href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">Bootstrap 4.2.1:</a></li>
+        <ul>
+        <li>Bootstrap was used to assist with the responsiveness and styling of the website.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">Bootstrap 3.4.1:</a></li>
+        <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">jQuery</a>
+        <ul>
+        <li>Bootstrap and jQuery was used for carousel in the home page to work</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">Font Awesome:</a></li>
+        <ul>
+        <li>Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">Hover.css:</a></li>
+        <ul>
+        <li>Cloud flare was used for hover effects</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">jQuery:</a></li>
+        <ul>
+        <li>jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">Google Map:</a></li>
+        <ul>
+        <li>Google APIs was used for displaying Google map.</li>
+        </ul>    
+    <li class="whyWallpaper-ul-li"><a href="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">Markerclusterer:</a></li>
+        <ul>
+        <li>Markerclusterer was used to place markers on Google maps.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js">EmailJS:</a></li>
+        <ul>
+        <li>EmailJS API was used for contact form email function.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://code.jquery.com/jquery-3.3.1.slim.min.js">Modal:</a></li>
+    <a href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">Modal Popper:</a>
+        <ul>
+        <li>jQuery was used as well as Bootstrap for Modal on product page "get Quote" to work with EmailJS above.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://git-scm.com">Git</a></li>
+        <ul>
+        <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://github.com">GitHub</a></li>
+        <ul>
+        <li>GitHub is used to store the projects code after being pushed from Git.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://www.coreldraw.com">CorelDRAW</a></li>
+        <ul>
+        <li>CorelDRAW was used to create the logo, resizing images and editing photos for the website.</li>
+        </ul>
+    <li class="whyWallpaper-ul-li"><a href="https://github.com">GitHub</a></li>
+        <ul>
+        <li>GitHub is used to store the projects code after being pushed from Git.</li>
+        </ul>
+</ol>
 
 
 ## Testing
@@ -212,26 +240,30 @@ Tested all links in the project, they are all working as intended.
 Tested to be ok the html, css and js code in 
 
 <ul>
-   <li class="whyWallpaper-ul-li"><a href="https://validator.w3.org">https://validator.w3.org </li></a>
-   <li class="whyWallpaper-ul-li"><a href="https://jigsaw.w3.org/css-validator/">https://jigsaw.w3.org/css-validator</li></a>
-   <li class="whyWallpaper-ul-li"><a href="https://esprima.org/demo/validate.html">https://esprima.org/demo/validate.html</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://validator.w3.org">W3C Markup Validator</a> - <a href="/assets/images/htmlCssValidator/testhtml.jpg">Results</a></li>
+   <li class="whyWallpaper-ul-li"><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a> - <a href="/assets/images/htmlCssValidator/test_css.jpg">Results</a></li>
+   <li class="whyWallpaper-ul-li"><a href="https://esprima.org/demo/validate.html">JS Validator</a> - <a href="/assets/images/htmlCssValidator/test_js.jpg">Results</a></li>  
 </ul>
 
+## Further Testing
 
-<br><img src="/assets/images/htmlCssValidator/testhtml.jpg" width=100%>
-<br><img src="/assets/images/htmlCssValidator/test_js.jpg" width=100%>
-
-Tested the project on Google DevTools, The project works on all screen sizes as intended.
-
-Created and tested 2 email templates at:
-<br>
 <ul>
-   <li class="whyWallpaper-ul-li"><a href="https://dashboard.emailjs.com/templates">https://dashboard.emailjs.com/templates</li></a>   
+    <li>The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.</li>
+    <li>The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.</li>
+    <li>The website was tested on Google DevTools, The website works on all screen sizes as intended.</li>
+    <li>A large amount of testing was done to ensure that all pages were linking correctly.</li>
+    <li>Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.</li>
+    <li>Created and tested 2 email templates at:</li>
+        <br>
+        <ul>
+            <li class="whyWallpaper-ul-li"><a href="https://dashboard.emailjs.com/templates">https://dashboard.emailjs.com/templates</li></a>
+            <li>Tested both templates, they are both working as intended.</li>
+        </ul>   
 </ul>
 
-Tested both templates, they are both working as intended.
-
-Contact Form Testing:
+<br>
+<p style="font-size: 16px; font-weight:bold">Contact Form Testing:</p>
+<br>
 
 <ul>
    <li class="whyWallpaper-ul-li">Go to the Contact Page.</li>
