@@ -373,13 +373,13 @@ Click
 <ul>
     <li>Code institute tutorials</li>
     <li><a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap4: </a>Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.</li>
-    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">CloudFlare: </a>For download and social network links hover effects</li>
-    <li><a href="ttps://getbootstrap.com/docs/4.0/components/carousel/">Bootstrap3: </a>Used for the carousel with some adjustment to reflect my intentions. </li>
+    <li><a href="https://getbootstrap.com/docs/4.0/components/carousel/">Bootstrap3: </a>Used for the carousel with some adjustment to reflect my intentions. </li>
+    <li><a href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">CloudFlare: </a>For hover effects</li>
+    <li><a href="https://www.w3schools.com/tags/att_input_pattern.asp">W3schools: </a>For form validation patterns which pointed in the direction I needed for my code</li>
     <li><a href="https://www.w3schools.com/cssref/sel_firstletter.asp">W3schools: </a>Used for text effext code (class p::first-letter)</li>
     <li><a href="https://stackoverflow.com/questions/4919076/outline-effect-to-text">Stackoverflow: </a>For text effext code (class .strokeme from stackoverflow.com)</li>
-    <li><a href="https://codepen.io/preecb/pen/mdJJdLy">Codepen: </a>For Zoom Hover effect</li>
-    <li><a href="https://www.w3schools.com/tags/att_input_pattern.asp">W3schools: </a>For form validation patterns which pointed in the direction I needed for my code</li>
     <li><a href="https://stackoverflow.com/questions/45204670/social-media-icons-change-to-respective-color-upon-hover">Stackoverflow: </a>For Social media icons change to respective color upon hover</li>
+    <li><a href="https://codepen.io/preecb/pen/mdJJdLy">Codepen: </a>For Zoom Hover effect</li>       
 </ul>
 
 <br>
