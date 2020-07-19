@@ -156,7 +156,7 @@ The website has the following main links:
 
 ## Technologies Used
 
-<p style="font-size: 16px; font-weight:bold">The project uses the following Technologies:</p>
+<h3>The project uses the following Technologies:</h3>
 
 <ul>
    <li class="whyWallpaper-ul-li">HTML5</li>
