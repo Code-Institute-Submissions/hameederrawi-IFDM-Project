@@ -143,15 +143,15 @@ At this stage the form details are transmitted to the website owners for process
 
 they provided in the email address form field.
 
-The website has the following links:
+The website has the following main links:
 
 <ul>
-   <li class="whyWallpaper-ul-li"><a href="index.html">Home</li></a>
-   <li class="whyWallpaper-ul-li"><a href="about.html">About</li></a>
-   <li class="whyWallpaper-ul-li"><a href="contact.html">Contact</li></a>
-   <li class="whyWallpaper-ul-li"><a href="products.html">Products</li></a>
-   <li class="whyWallpaper-ul-li"><a href="wallCoverings.html">Wallcoverings</li></a>
-   <li class="whyWallpaper-ul-li"><a href="whyWallparer.html">Why Wallparer</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/index.html">Home</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/about.html">About</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/contact.html">Contact</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/products.html">Products</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/wallCoverings.html">Wallcoverings</li></a>
+   <li class="whyWallpaper-ul-li"><a href="https://hameederrawi.github.io/IFDM-Project/whyWallparer.html">Why Wallparer</li></a>
 </ul>
 
 ## Technologies Used
